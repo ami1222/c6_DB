@@ -1,0 +1,51 @@
+fieldset {
+    background-color: skyblue;
+    border: 5px #224B8F double; padding:0 8px 8px;
+    width: 500px;
+    height: 700px;
+    margin: auto;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: flex;
+    font-weight: bold;
+}
+
+p {
+    display: contents;
+}
+
+#send {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #224B8F;
+    color: #FFF;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px 5px #224B8F;
+    border: dashed 1px #FFF;
+    width: 150px;
+    font-size: 100%;
+    margin: 10px;
+}
+
+#send:hover {
+    background: #fff;
+    color: #224B8F;
+    box-shadow: 0px 0px 0px 5px #fff;
+    border: dashed 1px #224B8F;
+    cursor: pointer;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    padding-left: 400px;
+
+}
